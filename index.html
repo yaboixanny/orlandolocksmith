@@ -238,19 +238,32 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         </section>
 
         <!-- Final CTA -->
-        <section class="final-cta">
-            <div class="container">
-                <h2>Need Emergency Help ASAP?</h2>
-                <p>Don't wait in the heat. We're on our way!</p>
-                <a href="tel:407-468-0026" class="btn btn-primary btn-large">
-                    <svg class="phone-icon ring-animation" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                        stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                        <path
-                            d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z">
-                        </path>
-                    </svg>
-                    Call Now: 407-468-0026
-                </a>
+        <section class="final-cta" style="padding: 60px 20px 100px;">
+            <div class="container" style="background: var(--primary); border-radius: 32px; padding: 70px 30px; text-align: center; box-shadow: 0 20px 40px rgba(10, 22, 40, 0.3); position: relative; overflow: hidden; max-width: 900px; margin: 0 auto;">
+                
+                <!-- Decorative background elements -->
+                <div style="position: absolute; top: -100px; left: -100px; width: 300px; height: 300px; background: radial-gradient(circle, rgba(212, 168, 75, 0.15) 0%, transparent 70%); border-radius: 50%; pointer-events: none;"></div>
+                <div style="position: absolute; bottom: -150px; right: -50px; width: 400px; height: 400px; background: radial-gradient(circle, rgba(212, 168, 75, 0.1) 0%, transparent 70%); border-radius: 50%; pointer-events: none;"></div>
+                
+                <h2 style="color: var(--white); position: relative; z-index: 2; line-height: 1.1;">Need Emergency Help ASAP?</h2>
+                <p style="color: rgba(255, 255, 255, 0.85); position: relative; z-index: 2; max-width: 600px; margin: 0 auto 40px auto; font-size: 1.35rem;">Don't wait in the heat. We're on our way!</p>
+                
+                <div style="position: relative; z-index: 2; display: flex; flex-direction: column; align-items: center; gap: 24px;">
+                    <a href="tel:407-468-0026" class="btn btn-primary btn-large" style="padding: 22px 50px; border-radius: 50px; display: inline-flex; align-items: center; gap: 16px; box-shadow: 0 10px 30px rgba(212, 168, 75, 0.4); font-size: 1.35rem;">
+                        <svg class="phone-icon ring-animation" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="width: 28px; height: 28px;">
+                            <path
+                                d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z">
+                            </path>
+                        </svg>
+                        Call Now: 407-468-0026
+                    </a>
+                    
+                    <div style="display: flex; align-items: center; gap: 10px; background: rgba(0, 0, 0, 0.3); padding: 10px 20px; border-radius: 50px; border: 1px solid rgba(255,255,255,0.05);">
+                        <span class="pulse-dot" style="width: 10px; height: 10px; margin-right: 4px;"></span>
+                        <span style="font-size: 1rem; font-weight: 600; color: rgba(255, 255, 255, 0.9);">Techs are available right now to dispatch</span>
+                    </div>
+                </div>
             </div>
         </section>
 
